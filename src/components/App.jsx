@@ -42,7 +42,7 @@ class App extends Component {
             Bad
           </button>
           <h2>Statistics</h2>
-          {this.countTotalFeedback() !== 0}
+          {/* {this.countTotalFeedback() !== 0} */}
           <p>Good: {this.state.good}</p>
           <p>Neutral: {this.state.neutral}</p>
           <p>Bad:{this.state.bad}</p>
